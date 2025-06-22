@@ -78,6 +78,53 @@ else{
   console.log("no item")
 }
 
+     question no 8
+
+let A = [24, 53, 78, 91, 12];
+let largest = A[0]; // assume the first number is the largest
+
+for (let i = 1; i < A.length; i++) {
+  if (A[i] > largest) {
+    largest = A[i];
+  }
+}
+console.log("The largest number is: " + largest);
+
+     QUESTION NO 9
+
+let A = [24, 53, 78, 91, 12];
+let smallest = A[0]; // assume the first number is the smallest
+
+for (let i = 1; i < A.length; i++) {
+  if (A[i] < smallest) {
+    smallest = A[i];
+  }
+}
+
+console.log("The smallest number is: " + smallest);
+
+        QUESTION NO 10
+
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 5 === 0) {
+    console.log(i);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 
 
 
